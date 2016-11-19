@@ -6,7 +6,7 @@
  * found in the LICENSE file at https://angular.io/license
  */
 
-import {Type} from '../type';
+import {Type} from '@angular/core';
 import {PlatformReflectionCapabilities} from './platform_reflection_capabilities';
 import {ReflectorReader} from './reflector_reader';
 import {GetterFn, MethodFn, SetterFn} from './types';

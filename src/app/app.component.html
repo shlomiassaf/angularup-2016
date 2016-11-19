@@ -1,3 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<textarea [value]="template" (change)="template = $event.target.value"></textarea>
+
+<div class="ngup-box">
+  <span #vcRef></span>
+</div>
+
+<div class="ngup-buttons">
+  <button (click)="add()">Add</button>
+  <button (click)="kill()">Remove</button>
+</div>

@@ -1,4 +1,7 @@
-# AngularUpDynamicContent
+# Angular UP 2016 - Demo for Dynamic content creation
+
+#Slides:
+http://bit.ly/2fjR6tI
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 

@@ -1,0 +1,22 @@
+textarea {
+  display: block;
+  margin: auto;
+  height: 300px;
+  width: 80%;
+  font-size: 22px;
+}
+
+.ngup-box {
+  margin: 20px auto;
+  height: 300px;
+  width: 80%;
+  background: lightgreen;
+}
+
+.ngup-buttons {
+  text-align: center;
+}
+
+button {
+  font-size: 22px;
+}

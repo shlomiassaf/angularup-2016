@@ -13,6 +13,10 @@ import {
 import { reflector } from './reflection/reflection';
 import { RuntimeCompiledModule, RuntimeCompiledComponent } from './runtime-compiled';
 
+`
+<ngComponentOutlet>
+`
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

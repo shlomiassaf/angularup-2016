@@ -6,8 +6,8 @@
  * found in the LICENSE file at https://angular.io/license
  */
 
-import {global, isPresent, stringify} from '../util/lang';
-import {Type} from '../type';
+import {global, isPresent, stringify} from './lang';
+import {Type} from '@angular/core';
 
 import {PlatformReflectionCapabilities} from './platform_reflection_capabilities';
 import {GetterFn, MethodFn, SetterFn} from './types';

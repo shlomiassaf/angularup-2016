@@ -29,6 +29,7 @@ export class AppComponent {
     const moduleFactory: NgModuleFactory<RuntimeCompiledModule> = this.compiler.compileModuleSync(RuntimeCompiledModule);
     const moduleRef: NgModuleRef<RuntimeCompiledModule> = moduleFactory.create(this.injector);
 
+    const injector = this.injector;
     const injector = moduleRef.injector;
 
 
